@@ -1,0 +1,55 @@
+.hamburger_menu{
+  display: none;
+}
+
+.hamburger_menu div{
+  width: 22px;
+  height: 4px;
+  background-color: white;
+  margin: 4px;
+  border-radius: 1px;
+
+}
+
+
+@media screen and (max-width:768px){
+  .nav_links{
+      position: fixed;
+      right: 0;
+      height:100vh;
+      background-color: #14213d;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px;
+      transform: translateX(100%);
+      transition: 0.5s ease-in;
+  }
+  nav li :hover {
+      color:#fca311;
+      background: #52050591;
+      font-weight: bolder;
+  }
+  .hamburger_menu{
+      display: block;
+      padding: 8px;
+      cursor: pointer;
+  }
+
+
+  .nav_active{
+      transform: translateX(0%);
+  }
+  .toggle .line1{
+      transform: rotate(-45deg) translate(-5px, 6px);
+  
+  }
+  .toggle .line2{
+      opacity: 0;
+      
+  }
+  .toggle .line3{
+      transform: rotate(45deg) translate(-5px, -6px);
+      
+  }
+}

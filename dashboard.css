@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* /*height: 100%;  */
+    overflow: hidden; 
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+header {
+    background-color: #14213D;
+    width: 400px;
+    height: 650px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-top: 3px solid #fca311;
+}
+
+.web-header__inner{
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-container{
+    padding: 0 11px;
+}
+
+.web-nav{
+    padding: 0;
+    margin-top: 44px;
+    font-size: 1.1em;
+    list-style-type: none;
+    line-height: 2.5rem;    
+}
+
+.web-nav_item a{
+    padding: 10px 5px 10px 14px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.web-nav_item :hover{
+    color: #fca311;
+    width: 4px; 
+    background-color: transparent;
+    border-left: 5px solid 
+}
+
+main {
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+.user-profile {
+    padding: 44px 0 22px 25px ;
+    background-color: #E5E5E5;
+}
+
+.name{
+    color: #14213D;
+    font-weight: bolder;
+    font-size: 22px;
+}

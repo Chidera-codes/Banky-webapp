@@ -1,0 +1,386 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(images/map3.jpg);
+    height: 96vh;
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid  #fca311;
+}
+
+.container{
+    height: 6vh;
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding: 10px 25px;
+    color:   #fca311;
+}
+
+nav{
+    float: right;
+    margin-bottom: 70px;
+}
+
+header a {
+    font-family: 'Cutive Mono', ;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+ul :hover {
+    color:#fca311;
+    background: #14213d3a;
+    font-weight: bolder;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav  li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 25px;
+}
+
+main {
+    color: whitesmoke;
+    margin-left: 8%;
+    margin-top: 8%
+}
+
+main h1 {
+    font-family: 'Cutive Mono', ;
+    font-size: 55px;
+    width: 70%;
+}
+
+main p{
+    font-family: 'Cutive Mono', ;
+    font-size: 1.5rem;
+}
+
+.banner_wrapper {
+   
+    background-color: rgba(0, 0, 139, 0);
+    border: 1px solid #fca311;
+    width: 280px;
+    height: 76px;
+    margin-top: 90px;
+    padding: 8px;
+}
+
+
+.banner{
+    background: #fca311;
+    width: 280px;
+    height: 100%;
+    font-size: 1em;
+    text-align: center;
+    justify-items: center;
+}
+div{
+    display: block;
+}
+#experience{
+    padding: 25px;
+}
+
+.banner p {
+    margin: 0;
+}
+
+
+.banner p  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* .hamburger_menu{
+    display: none;
+}
+
+.hamburger_menu div{
+    width: 22px;
+    height: 4px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 1px;
+
+} */
+
+/* tablets */
+
+@media screen and (max-width:768px){
+    body{
+        padding: 0;
+        margin: 0;
+        background: url(images/map3.jpg);
+        /* height: 100vh; */
+        background-size: cover;
+        background-position: center;
+        border-top: 4px solid  #fca311;
+        overflow-x: hidden;
+    }
+    .logo{
+        float: left;
+        font-size: 30px;
+        padding: 10px 10px;
+        color:   #fca311;
+    }
+    .nav_links li:hover{
+        color:#fca311;
+    background-color: rgba(212, 120, 0, 0.678);
+    }
+    /* header :hover{
+        font-family: 'Cutive Mono', ;
+        text-decoration: none;
+        color: #fca311;
+    }
+     */
+    
+    .container{
+        height: 6vh;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #experience{
+        padding: 15px;
+    }
+    
+
+
+    .banner_wrapper {
+   
+        background-color: rgba(0, 0, 139, 0);
+        border: 1px solid #fca311;
+        width: 90%;
+        margin-top: 90px;
+        padding: 8px;
+    }
+
+    .banner{
+        background: #fca311;
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        font-size: 1em;
+        text-align: center;
+        justify-items: center;
+        
+    }
+
+    .banner p  a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    main p{
+        font-family: 'Cutive Mono',;
+        font-size: 25px;
+    }
+    main h1 {
+        font-family: 'Cutive Mono', ;
+        font-size: 50px;
+        width: 100%;
+    } 
+
+    
+    .nav_links{
+        position:fixed;
+        right: 0;
+        height:93vh;
+        background-color: #14213d;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+    nav ul li :hover {
+        color:#fca311;
+        background: #52050591;
+        font-weight: bolder;
+    }
+    /* .hamburger_menu{
+        display: block;
+        padding: 8px;
+        cursor: pointer;
+    }
+
+
+    .nav_active{
+        transform: translateX(0%);
+    }
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px, 6px);
+    
+    }
+    .toggle .line2{
+        opacity: 0;
+        
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+         */
+    /* } */
+    html{
+        overflow-x: hidden;
+    }
+    
+}
+
+/* mobile */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    body{
+        padding: 0;
+        margin: 0;
+        background: url(images/map3.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top: 4px solid  #fca311;
+        overflow-x: hidden;
+    }
+    .logo{
+        float: left;
+        font-size: 30px;
+        padding: 10px 10px;
+        color:   #fca311;
+    }
+
+    #experience{
+        padding: 15px;
+    }
+    
+
+    .banner {
+    background: #fca311;
+    width: 93%;
+    margin: 0 auto;
+    height: 73%;
+    font-size: 1em;
+    text-align: center;
+    justify-items: center;
+    padding: 7px;
+}
+    
+    .container{
+        height: 6vh;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main p{
+        font-family: 'Cutive Mono', ;
+        font-size: 17px;
+    }
+    main h1 {
+        font-family: 'Cutive Mono', ;
+        font-size: 30px;
+        width: 100%;
+    } 
+    
+    .nav_links{
+        position:fixed;
+        right: 0;
+        height:93vh;
+        background-color: #14213d;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+    nav li :hover {
+        color:#fca311;
+        background: #52050591;
+        font-weight: bolder;
+    }
+    /* .hamburger_menu{
+        display: block;
+        padding: 8px;
+        cursor: pointer;
+    }
+
+
+    .nav_active{
+        transform: translateX(0%);
+    }
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px, 6px);
+    
+    }
+    .toggle .line2{
+        opacity: 0;
+        
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+        
+    } */
+
+    .banner_wrapper {
+        background-color: rgba(0, 0, 139, 0);
+        border: 1px solid #fca311;
+        width: 85%;
+        height: 50px;
+        margin-top: 90px;
+    }
+    
+    
+    .banner{
+        background: #fca311;
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        font-size: 1em;
+        text-align: center;
+        justify-items: center;
+        padding: 0px;
+    }
+
+    .banner p  a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+
+
+}
+
+
+
+
+
+

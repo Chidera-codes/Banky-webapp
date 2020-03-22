@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link href="header.css" rel="stylesheet">
+    <link href="signup.css" rel="stylesheet">
+</head>
+<!-- This is where the body starts -->
+<body>
+    <header>
+        <!-- navigation -->
+        <div class="container">
+            <div class="logo">
+                BANKY
+            </div>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="signin.html">SIGN IN</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+
+                <div class="hamburger_menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="signup-page"></main>
+        <section class="container2">
+            <div class="main">
+
+                <form id="form" action="signin.html" method="GET">
+                    FIRST NAME <br><input id="firstName" type="text" name="firstname" placeholder="First Name">
+                    <label  id="blank_firstname" style="color: red; font-size: 12px; visibility: hidden;" >FIRST NAME cannot be left blank</label><br>
+                    LAST NAME <br><input id="lastName" type="text" name="lastname" placeholder="Last Name">
+                    <label id="blank_lastname" style="color: red; font-size: 12px; visibility: hidden;" >LAST NAME cannot be left blank</label><br>
+                    PHONE NUMBER<br><input  id="phone_number" type="number" name="phonenumber" placeholder="+2341234567890" >
+                    <label id="blank_phoneNumber" style="color: red; font-size: 12px; visibility: hidden; " >PHONE NUMBER cannot be left blank</label><br>
+                    EMAIL <br><input  id="email" type="email" name="emailaddress" placeholder="email@domain.com" >
+                    <label id="blank_email" style="color: red; font-size: 12px; visibility: hidden; " >Email cannot be left blank</label><br>
+                    PASSWORD <br><input id="password" type="password" name="emailaddress" placeholder="Enter Password">
+                    <label id="blank_password" style="color: red; font-size: 12px; visibility: hidden; " >PASSWORD cannot be left blank</label><br>
+                    CONFIRM PASSWORD <br> <input id="confirm_password" type="password" name="confirmpassword" placeholder="Confirm Password"><br>
+                    <label id="noMatch_password" style="color: red; font-size: 12px; visibility: hidden; " >PLEASE CONFIRM PASSWORD</label><br>
+                    <button id="btn_submit"  class="Signup_btn">Sign Up</button>
+
+                </form>
+                <footer>
+                    <p>Already have an account? <a href="signin.html">Sign In</a></p>
+                </footer>
+                </div>
+        </div>
+
+<script type="text/javascript" src="home.js"></script>
+<script type="text/javascript" src="validate.js"></script>
+</body>
+</html>
