@@ -3,6 +3,8 @@
     e.preventDefault();
     var isValid = loginUser();
     if(isValid){
+      document.getElementById('spinner').style.visibility ='visible';
+      document.getElementById('signin_text').style.visibility ='hidden';
       e.target.submit();
     }
     
