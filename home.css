@@ -39,15 +39,9 @@ header a {
     text-decoration: none;
     color: white;
 }
-
-
-
-ul :hover {
-    color:#fca311;
-    background: #14213d3a;
-    font-weight: bolder;
+li a{
+    display: block;
 }
-
 
 
 nav ul {
@@ -61,6 +55,13 @@ nav  li {
     margin-left: 10px;
     padding: 10px 25px;
 }
+
+li :hover {
+    color:#fca311;
+    font-weight: bolder;
+    padding: 0px;
+}
+
 
 main {
     color: whitesmoke;

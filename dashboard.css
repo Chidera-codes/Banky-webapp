@@ -27,6 +27,12 @@ header {
 .inner-container{
     padding: 0 11px;
 }
+.web-logo{
+    color:#fca311;
+    font-size: 3em;
+    text-decoration: none;
+    padding-left: 14px;
+}
 
 .web-nav{
     padding: 0;
@@ -36,7 +42,12 @@ header {
     line-height: 2.5rem;    
 }
 
+.web-nav_item{
+    width: 100%;
+}
+
 .web-nav_item a{
+    display: block;
     padding: 10px 5px 10px 14px;
     text-decoration: none;
     color: white;
@@ -45,8 +56,7 @@ header {
 
 .web-nav_item :hover{
     color: #fca311;
-    width: 4px; 
-    background-color: transparent;
+    background-color: #101A30;
     border-left: 5px solid 
 }
 
@@ -60,11 +70,96 @@ p{
 
 .user-profile {
     padding: 44px 0 22px 25px ;
+    border-top: 3px solid #fca311;
     background-color: #E5E5E5;
+
 }
 
-.name{
+#username{
     color: #14213D;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 30px;
+}
+
+.email , .number , .role {
+    color: #555;
+}
+
+.account-overview {
+    padding: 44px 0 22px 25px ;
+    color: #14213D;
+}
+
+.account_text{
+    margin: 30px 0px 20px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #14213D ;
+}
+.all_cards{
+    list-style: none;
+    padding-left: 20px;
+}
+.noacct_text{
+    color: #14213D;
+    font-style: italic;
+    font-size: 18px;
+    margin: 30px 0px 20px 20px;
+
+}
+.user_card{
+    background-color:black;
+    background:url(images/acct-card-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 300px;
+    height: 150px;
+    color: goldenrod;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    display: none;
+}
+.top_card_details{
+    margin-bottom: 20px;
+}
+.account_type{
+    float: right;
+}
+.card_username{
+    margin-bottom: 5px;
+
+}
+.bottom_card_details{
+    float: right;
+    margin-top: 20px;
+}
+.account_balance{
+    font-size: 25px;
+}
+
+.view_acct_button{
+    background-color:#fca311;
+    width: 250px;
+    padding: 15px;
+    margin: 30px 0px 20px 20px;
+    display: none;
+}
+#view_acct_link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.transactions_text{
+    margin: 30px 0px 20px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #14213D ;
+}
+.notransaction_text{
+    color: #14213D;
+    font-style: italic;
+    font-size: 18px;
+    margin: 30px 0px 20px 20px;
+
 }

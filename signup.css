@@ -103,6 +103,9 @@ button{
      margin-bottom: 5px;
      width: 90%;
 }
+#spinner{
+    display: none;
+}
 
 .hamburger_menu{
     display: none;
