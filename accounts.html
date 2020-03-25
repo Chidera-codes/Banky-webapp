@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accounts</title>
+  <link rel="stylesheet" href="appUI.css">
+  <link rel="stylesheet" href="accounts.css">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
+</head>
+<body>
+  <header class="web-header">
+    <div class="inner-container">
+        <div class="web-header__inner">
+            <a href="dashboard.html" class="web-logo">Banky</a>
+        </div>
+        <ul class="web-nav">
+            <li class="web-nav_item" >
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="web-nav_item" >
+                <a href="accounts.html">Accounts</a>
+            </li>
+            <li class="web-nav_item" >
+                <a href="transaction.html">Transactions</a>
+            </li>
+            <li class="web-nav_item" >
+                <a href="signin.html">Sign Out</a>
+            </li>
+        </ul>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class = "myacct_container">
+      <h3 class = "myacct_text">
+        my account details
+      </h3>
+      <p class = " noacct_text">
+        You have not opened any account
+      </p>
+    </div>
+    <div>
+      <table class="accounts_record">
+        <tr>
+          <th>Opened on</th>
+          <th>Account number</th>
+          <th>Type</th>
+          <th>status</th>
+          <th>Opening balance</th>
+          <th>Current balance</th>
+        </tr>
+        <tr>
+          <td>3/19/2020</td>
+          <td>2259811897</td>
+          <td>Savings</td>
+          <td>Draft</td>
+          <td>$2000</td>
+          <td>$0.00</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h2 class="open_account">
+        <span class="add">+</span>open new bank account
+      </h2>
+    </div>
+    <section>
+      <div class="container2">
+        <form>
+          <div>
+            <label>FIRST NAME</label><br><input class="input_field"><br>
+          </div>
+          <div>
+            <label>LAST NAME</label><br><input class="input_field"><br>
+          </div>
+          <div>
+            <label>opening balance</label><br><input class="input_field"><br>
+          </div>
+          <div>
+            <label>account type</label><br><select class="input_field">
+            <option value="">--Select an account type--</option>
+            <option value="savings">Savings</option>
+            <option value="current">current</option>
+          </select><br>
+          </div>
+          <div>
+            <button >open account </button>
+          </div>
+
+
+        </form>
+      </div>
+  </section>
+  </main>
+</body>
+</html>

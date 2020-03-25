@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+.myacct_container{
+  margin: 50px 0px 20px 30px;
+}
+.myacct_text{
+  font-size: 25px;
+  font-family: 'BebasNeueRegular';
+  color: #14213D ;
+}
+.noacct_text{
+  font-size: 18px;
+  color: #14213D ;
+  opacity: 80%;
+  font-style: italic;
+
+}
+.add{
+  font-size: 30px;
+}
+.open_account{
+  margin: 50px 20px 20px 30px;
+  color: #14213D ;
+  font-family: 'BebasNeueRegular';
+  border-top: 1px solid rgba(20, 33, 61, 0.171);
+  border-bottom: 1px solid rgba(20, 33, 61, 0.171);
+
+}
+.accounts_record{
+  margin: 0px 20px 20px 30px;
+  color: #14213D ;
+  border-collapse: collapse;
+  width: 97%;
+  display: none;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+form{
+  border: 2px solid grey;
+  width: 400px;
+  padding: 22px;
+  margin-left: 25px;
+  display: none;
+}
+
+.input_field{
+  width: 100%;
+  margin-bottom: 25px;
+  border: 1px solid #8b8787;
+  padding: 8px;
+}
+button{
+  background-color:#fac311;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 1em;
+  font-family:  'BebasNeueRegular';
+}
+
+

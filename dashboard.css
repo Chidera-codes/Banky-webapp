@@ -11,11 +11,11 @@ body{
 
 header {
     background-color: #14213D;
-    width: 400px;
+    width: 300px;
     height: 650px;
     text-transform: uppercase;
     text-decoration: none;
-    border-top: 3px solid #fca311;
+    border-top: 4px solid #fca311;
 }
 
 .web-header__inner{
@@ -70,7 +70,7 @@ p{
 
 .user-profile {
     padding: 44px 0 22px 25px ;
-    border-top: 3px solid #fca311;
+    border-top: 4px solid #fca311;
     background-color: #E5E5E5;
 
 }
@@ -79,6 +79,10 @@ p{
     color: #14213D;
     font-weight: bolder;
     font-size: 30px;
+}
+.user-info p{
+    color: #14213D;
+
 }
 
 .email , .number , .role {
@@ -103,6 +107,7 @@ p{
 .noacct_text{
     color: #14213D;
     font-style: italic;
+    opacity: 70%;
     font-size: 18px;
     margin: 30px 0px 20px 20px;
 
@@ -160,6 +165,7 @@ p{
     color: #14213D;
     font-style: italic;
     font-size: 18px;
+    opacity: 70%;
     margin: 30px 0px 20px 20px;
 
 }

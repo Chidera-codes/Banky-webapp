@@ -12,7 +12,13 @@ form.addEventListener('submit', (e)=>{
 
   if(isValid) {
     // submit form
-    e.target.submit();
+    // e.target.submit();
+    setTimeout(() => {
+      e.target.submit();
+      
+    }, (5 * 1000));
+    document.getElementById('spinner').style.visibility ='visible';
+    document.getElementById('signin_text').style.visibility ='hidden';
     function storeinfo() {
       var inputFirstname = document.getElementById('firstName');
       var inputLastname = document.getElementById('lastName');

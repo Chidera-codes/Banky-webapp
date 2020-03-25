@@ -99,15 +99,17 @@ button{
      height: 35px;
      margin-bottom: 5px;
      width: 92%;
+     z-index: -1;
 }
 
 #spinner {
     position: absolute;
     top: 6px;
-    left: 50%;
+    left: 47%;
     font-size: 25px;
     opacity: 70%;
     visibility: hidden;
+    transition: 0.5s ease-in;
 }
 
 
