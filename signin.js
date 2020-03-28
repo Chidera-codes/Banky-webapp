@@ -3,7 +3,12 @@
     e.preventDefault();
     var isValid = loginUser();
     if(isValid){
-      e.target.submit();
+      setTimeout(() => {
+        e.target.submit();
+        
+      }, (5 * 1000));
+      document.getElementById('spinner').style.visibility ='visible';
+      document.getElementById('signin_text').style.visibility ='hidden';
     }
     
     else{

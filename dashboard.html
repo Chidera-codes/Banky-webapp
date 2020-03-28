@@ -32,15 +32,47 @@
         <section class="user-profile">
             <div class="user-profile__inner">
                 <div class="user-info">
-                    <div id="username" >
+                    <div class="alluser_info">
                     <p id="username"></p>
                     <p id="email"></p>
                     </div>
-                    <p class="number"></p>
-                    <p class="role"></p>
+                    <p id="number"></p>
+                    <p id="role"></p>
                 </div>
             </div>
         </section>
+        <section>
+            <div>
+                <p class="account_text">ALL ACCOUNTS<p>
+                    <p class="noacct_text">You have not opened any account</p>
+            </div>
+            <div>
+
+                <ul class="all_cards">
+                    <li class="user_card">
+                        <div class="top_card_details">
+                            <span class="bank_name">Banky</span>
+                            <span class="account_type">current</span>
+                        </div>
+                        <div class="middle_card_details">
+                            <p class="card_username">Username<p>
+                            <p class="account_number">123458865546<p>
+                        </div>
+                        <div class="bottom_card_details">
+                            <p class="balance_label">Balance</p>
+                            <p class="account_balance">$0.00</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="view_acct_button">
+                <a id="view_acct_link" href="accounts.html">VIEW ALL ACCOUNT DETAILS</a>
+            </div>
+        </section>
+        <div>
+            <p class="transactions_text">RECENT TRANSACTIONS<p></p>
+            <p class="notransaction_text">No account(s) to perform transaction(s) on</p>
+        </div>
     </main>
     <script type="text/javascript" src="dashboard.js"></script>
 </body>

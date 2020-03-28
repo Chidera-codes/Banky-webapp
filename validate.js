@@ -12,18 +12,26 @@ form.addEventListener('submit', (e)=>{
 
   if(isValid) {
     // submit form
-    e.target.submit();
+    // e.target.submit();
+    setTimeout(() => {
+      e.target.submit();
+      
+    }, (5 * 1000));
+    document.getElementById('spinner').style.visibility ='visible';
+    document.getElementById('signin_text').style.visibility ='hidden';
     function storeinfo() {
       var inputFirstname = document.getElementById('firstName');
       var inputLastname = document.getElementById('lastName');
       var inputPassword = document.getElementById('password');
       var inputPhone_number = document.getElementById ('phone_number');
       var inputEmail = document.getElementById('email');
+      localStorage.setItem("Id",Date.now());
       localStorage.setItem("firstname", inputFirstname.value);
       localStorage.setItem("lastname", inputLastname.value);
       localStorage.setItem("password", inputPassword.value);
       localStorage.setItem("phone number", inputPhone_number.value);
       localStorage.setItem("email", inputEmail.value);
+
       
      } 
      storeinfo();
@@ -82,7 +90,7 @@ function validateSignin() {
       return false;
     }
 
-    else if(password.value.trim().length < 5){
+    else if(password.value.trim().length < 6){
           document.getElementById("blank_password").innerText = 'Password too short';
           document.getElementById("blank_password").style.visibility='visible';
           password.style.border ="solid 1px red";

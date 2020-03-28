@@ -1,14 +1,17 @@
 function display_userInfo(){
-  var firstname = document.getElementById('firstname').value;
-  var lastname = document.getElementById('lastname').value;
-  var email = document.getElementById("email").value;
-  var phone_number = document.getElementById("number").value;
-  var role = document.getElementById("role").value;
-
-  // Just get rid of the "" at the value (change "name" to name).
-  localStorage.getItem("firstname", firstname);
-  localStorage.getItem("lastname", lastname);
-  username.textContent =  + localStorage.getItem('firstname') + 
-  "" + localStorage.getItem('lastname');
+  var username = document.getElementById("username");
+  var email = document.getElementById("email");
+  var phone_number = document.getElementById("number");
+  var role = document.getElementById("role");
+  var firstname = localStorage.getItem("firstname", firstname);
+  var lastname = localStorage.getItem("lastname", lastname);
+  
+  username.textContent = firstname + "  " + lastname ;
+  email.textContent = "Email:" + "   "  + localStorage.getItem("email",email) ;
+  number.textContent = "Phone Number:" + "   " + localStorage.getItem("phone number",phone_number) ;
+  role.textContent = "Role:"+ " "+"Client";
+  
+  
+  
 }
 display_userInfo()

@@ -7,6 +7,7 @@
     <title>Sign In</title>
     <link href="header.css" rel="stylesheet">
     <link href="signin.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
         <header>
@@ -15,7 +16,7 @@
                         BANKY
                     </div>
                     <nav>
-                        <ul class="nav_links">
+                        <ul class="nav nav_links">
                             <li><a href="index.html">HOME</a></li>
                             <li><a href="signin.html">SIGN IN</a></li>
                             <li><a href="signup.html">SIGN UP</a></li>
@@ -36,7 +37,12 @@
                     EMAIL <br><input id="email" type="email" name="emailaddress" placeholder="email@domain.com" required><br>
                      PASSWORD<br> <input id="password" type="password" name="password" placeholder="Enter Password" required><br>
                      <label id="blank_input" style="color: red; font-size: 2px; visibility: hidden;" >invalid Username or password</label><br>
-                     <button  id="login_btn">Sign In</button>
+                     <!-- <button class="buttonload" id="login_btn"><i class="fa fa-spinner fa-spin" id="spinner"></i>Sign in
+                     </button> -->
+                     <button class="buttonload" id="login_btn">
+                        <span id="signin_text">SIGN IN</span>
+                        <i class="fa fa-spinner fa-spin" id="spinner"></i>
+                      </button>
                 </form>
                 <footer>
                     <p>Don't have an account? <a href="signup.html">Sign Up</a> for a user account</p>
@@ -45,6 +51,6 @@
         </div>
         <script type="text/javascript" src="home.js"></script>
         <script type="text/javascript" src="signin.js"></script>
-        <script type="text/javascript" src="dashboard.js"></script>
+
 </body>
 </html>

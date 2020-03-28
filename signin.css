@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0; 
@@ -34,24 +37,28 @@ header a {
     color: white;
 }
 
-nav li :hover {
-
-    background: #520505;
-    font-weight: bolder;
-    color: #fca311
-}
-
-nav ul {
+ul.nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
+  }
+  .nav li {
+    width: 100px;
+    height: 50px;
+    list-style-type: none;
+    line-height: 50px;
+    display: inline-block;
+  }
+  .nav a {
+    display: block;
+  }
+
+.nav a:hover{
+    color: #fca311;
+    background-color:rgba(0, 11, 36, 0.726);
 }
 
-nav  li {
-    display: inline-block;
-    /* margin-left: 70px; */
-    padding: 10px 25px;
-}
 
 .container2 {
     margin: 10% auto; 
@@ -65,10 +72,11 @@ nav  li {
 }
 button{
     background: #fac311;
+    position: relative;
     border: none;
     height: 35px;
     margin-bottom: 5px;
-    width: 90%;
+    width: 100%;
 }
 
 form {
@@ -84,7 +92,7 @@ input {
     margin-top: 1%;
     margin-bottom: 6%;
     height: 25px;
-    width: 90%;
+    width: 100%;
 }
 label{
     color: red;
@@ -92,12 +100,27 @@ label{
 }
 
 button{
+    position: relative;
      background: #fca311;
      border: none;
      height: 35px;
      margin-bottom: 5px;
-     width: 90%;
+     width: 92%;
+     z-index: -1;
 }
+
+#spinner {
+    position: absolute;
+    top: 6px;
+    left: 47%;
+    font-size: 25px;
+    opacity: 70%;
+    visibility: hidden;
+    transition: 0.5s ease-in;
+}
+
+
+
 .hamburger_menu{
     display: none;
 }
@@ -175,7 +198,7 @@ footer{
         border: 2px solid #14213D;
         width: 70%;
         margin-left: 16%;
-        height: 41%;
+        height: 350px;
     }
 }
 
@@ -196,7 +219,7 @@ footer{
         border: 2px solid #14213D;
         width: 74%;
         margin-left: 13%;
-        height: 52%;
+        height: 350px;
     }
 
     
