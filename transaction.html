@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transactions</title>
+  <link rel="stylesheet" href="appUI.css">
+  <link rel="stylesheet" href="transaction.css">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
+</head>
+<body>
+  <header class="web-header">
+    <div class="inner-container">
+        <div class="web-header__inner">
+            <a href="dashboard.html" class="web-logo">Banky</a>
+        </div>
+        <ul class="web-nav">
+            <li class="web-nav_item" >
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="web-nav_item" >
+                <a href="accounts.html">Accounts</a>
+            </li>
+            <li class="web-nav_item" >
+                <a href="transaction.html">Transactions</a>
+            </li>
+            <li class="web-nav_item" >
+                <a href="signin.html">Sign Out</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<main class="page-content">
+  <section>
+    <div class="select_account_container">
+      <h2 class="select_acct_text">select an account</h2>
+      <form class="view_transactions_form">
+        <div>
+          <select class="select_acct">
+            <option>--Select bank account--</option>
+        </div>
+          <div>
+            view transactions
+          </div>
+        </select>
+        <button class="view_tansactions_btn">view transactions</button>
+      </form>
+    </div>
+  </section>
+  <section class="trasction_details_container">
+    <div><h2 class="transacton_details_text">transaction details</h2></div>
+    <div>
+      <p class="no_transaction_text">You have not performed any transaction</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>
