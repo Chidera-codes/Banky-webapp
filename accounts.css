@@ -25,6 +25,7 @@
   font-family: 'BebasNeueRegular';
   border-top: 1px solid rgba(20, 33, 61, 0.171);
   border-bottom: 1px solid rgba(20, 33, 61, 0.171);
+  cursor: pointer;
 
 }
 .accounts_record{
@@ -58,14 +59,17 @@ form{
   border: 1px solid #8b8787;
   padding: 8px;
 }
-button{
-  background-color:#fac311;
+button {
+  background-color: #fac311;
   width: 100%;
   border: none;
-  padding: 15px;
+  padding: 6px;
   margin-top: 10px;
-  font-size: 1em;
-  font-family:  'BebasNeueRegular';
+  font-size: 20px;
+  font-family: 'BebasNeueRegular';
 }
 
+.firstname , .lastname{
+  cursor: not-allowed;
+}
 

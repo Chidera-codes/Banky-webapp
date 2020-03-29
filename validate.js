@@ -19,6 +19,7 @@ form.addEventListener('submit', (e)=>{
     }, (5 * 1000));
     document.getElementById('spinner').style.visibility ='visible';
     document.getElementById('signin_text').style.visibility ='hidden';
+    document.getElementById('login_btn').style.backgroundColor = "#E5E5E5";
     function storeinfo() {
       var inputFirstname = document.getElementById('firstName');
       var inputLastname = document.getElementById('lastName');
