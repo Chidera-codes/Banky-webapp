@@ -58,6 +58,7 @@ form{
   margin-bottom: 25px;
   border: 1px solid #8b8787;
   padding: 8px;
+  text-transform: capitalize;
 }
 button {
   background-color: #fac311;
@@ -71,5 +72,6 @@ button {
 
 .firstname , .lastname{
   cursor: not-allowed;
+  background: rgb(221, 221, 221);
 }
 
