@@ -66,23 +66,24 @@
     </div>
     <section>
       <div class="container2">
-        <form id="form" class=" toggle_form" display='block'>
+        <form id="form" class=" toggle_form" display='block' method="GET" action="transaction.html">
           <div>
-            <label>FIRST NAME</label><br><input id="firstname" class="input_field firstname" value="" readonly><br>
+            <label>FIRST NAME</label><br><input id="firstname" class="input_field firstname" readonly ><br>
           </div>
           <div>
             <label>LAST NAME</label><br><input id="lastname" class="input_field lastname" value="" readonly><br>
           </div>
           <div>
-            <label>opening balance</label><br><input class="input_field" type="number"><br>
+            <label>OPENING BALANCE</label><br><input class="input_field input" type="number" id="input_open_account" name="Opening Balance"><br>
           </div>
           <div>
-            <label>account type</label><br><select class="input_field">
+            <label>ACCOUNT TYPE</label><br><select class="input_field input" name="Account Type" id="input_account_type">
             <option value="">--Select an account type--</option>
             <option value="savings">Savings</option>
             <option value="current">current</option>
           </select><br>
           </div>
+          <div id="error-box" style="color: red"></div>
           <div>
             <button >open account </button>
           </div>
