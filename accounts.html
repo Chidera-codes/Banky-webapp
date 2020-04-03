@@ -35,12 +35,12 @@
       <h3 class = "myacct_text">
         my account details
       </h3>
-      <p class = " noacct_text">
+      <p class = " noacct_text" id="noacct_text">
         You have not opened any account
       </p>
     </div>
     <div>
-      <table class="accounts_record">
+      <table class="accounts_record" id="accounts_table">
         <tr>
           <th>Opened on</th>
           <th>Account number</th>
@@ -48,14 +48,6 @@
           <th>status</th>
           <th>Opening balance</th>
           <th>Current balance</th>
-        </tr>
-        <tr>
-          <td>3/19/2020</td>
-          <td>2259811897</td>
-          <td>Savings</td>
-          <td>Draft</td>
-          <td>$2000</td>
-          <td>$0.00</td>
         </tr>
       </table>
     </div>
@@ -66,7 +58,7 @@
     </div>
     <section>
       <div class="container2">
-        <form id="form" class=" toggle_form" display='block' method="GET" action="transaction.html">
+        <form id="form" class=" toggle_form" display='block'>
           <div>
             <label>FIRST NAME</label><br><input id="firstname" class="input_field firstname" readonly ><br>
           </div>
@@ -85,7 +77,7 @@
           </div>
           <div id="error-box" style="color: red"></div>
           <div>
-            <button >open account </button>
+            <button id="open_account_button">open account </button>
           </div>
 
 

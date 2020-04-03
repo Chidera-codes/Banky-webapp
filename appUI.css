@@ -1,8 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  /* /*height: 100%;  */
-  overflow: hidden; 
+  /* overflow: hidden; */
   width: 100vw;
   display: flex;
   flex-flow: row nowrap;
@@ -12,7 +11,7 @@ body{
 header {
   background-color: #14213D;
   width: 300px;
-  height: 650px;
+  height: 100vmin;
   text-transform: uppercase;
   text-decoration: none;
   border-top: 4px solid #fca311;
