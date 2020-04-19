@@ -6,7 +6,7 @@ function display_userInfo(){
   var firstname = localStorage.getItem("firstname", firstname);
   var lastname = localStorage.getItem("lastname", lastname);
   
-  username.textContent = firstname + "  " + lastname ;
+  username.textContent = "  "+ firstname + "  " + lastname ;
   email.textContent = "Email:" + "   "  + localStorage.getItem("email",email) ;
   number.textContent = "Phone Number:" + "   " + localStorage.getItem("phone number",phone_number) ;
   role.textContent = "Role:"+ " "+"Client";
@@ -15,5 +15,11 @@ function display_userInfo(){
   
 }
 display_userInfo();
+
+if(localStorage.getItem('accountData') !== null){
+  document.getElementById('no_acct_text').style.display = 'none';
+  document.getElementById('view_acct_btn').style.display = 'block';
+
+}
 
 

@@ -207,7 +207,7 @@ footer{
         border: none;
         height: 35px;
         margin-bottom: 5px;
-        width: 91%;
+        width: 41.5vw;
     }
 }
 
@@ -222,7 +222,7 @@ footer{
         width: 65%;
         margin-left: 14%;
         padding: 12px;
-        height: 45rem;
+        height: 52rem;
     }
     
 form {
@@ -236,7 +236,7 @@ button{
     border: none;
     height: 35px;
     margin-bottom: 5px;
-    width: 91%;
+    width:47vw;
 }
 
 }

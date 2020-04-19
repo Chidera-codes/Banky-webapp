@@ -9,9 +9,10 @@ body{
 }
 
 header {
+  position: fixed;
   background-color: #14213D;
   width: 300px;
-  height: 100vmin;
+  height: 100vh;
   text-transform: uppercase;
   text-decoration: none;
   border-top: 4px solid #fca311;
