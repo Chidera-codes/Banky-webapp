@@ -82,3 +82,21 @@ button {
   background: rgb(221, 221, 221);
 }
 
+@media screen and (max-width:768px){
+  main{
+    padding-left: 0;
+  }
+
+  .myacct_container {
+    margin: 100px 0px 20px 30px;
+}
+
+.accounts_record {
+  margin: 0px 20px 20px 30px;
+  color: #14213D;
+  border-collapse: collapse;
+  width: 90%;
+  /* display: none; */
+}
+}
+
