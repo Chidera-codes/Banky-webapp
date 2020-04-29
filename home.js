@@ -7,7 +7,7 @@
 
 const navslide = () =>{
   const hamburger_menu = document.querySelector(".hamburger_menu");
-  const nav = document.querySelector(".nav_links");
+  const nav = document.querySelector(".web-nav");
 
 
   hamburger_menu.addEventListener('click', ()=>{
